@@ -30,7 +30,7 @@ public class UserController {
 //		return "Session id is : "+ request.getSession().getId();
 //	}
 	
-	@GetMapping("/getUser")
+	@GetMapping("/get")
 	public List<User> getAll(){
 		return service.getAll();
 	}
